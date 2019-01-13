@@ -89,13 +89,13 @@ Feature:
                 Given I enter password as "<password>"
                 Given I enter confirm password as "<con_password>"
                 When I click on register button
-                Then  I should see error message as"<ErrorMessage>"
+                Then  I should see error_message as"<ErrorMessage>"
 
                 Examples:
 
                 |firstname|lastname|email|password|con_password|ErrorMessage|
 
-                | |lastname2|email2|password2|con_password2|File name is not valid|
+                | |lastname2|email2|password2|con_password2|File name is not valid |
 
 
 
